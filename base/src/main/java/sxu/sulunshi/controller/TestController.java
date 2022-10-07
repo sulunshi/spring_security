@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TestController {
     @RequestMapping("hello")
     public String hello(){
+        System.out.println("666");
+        System.out.println("password");
 
         return "hello security";
     }
