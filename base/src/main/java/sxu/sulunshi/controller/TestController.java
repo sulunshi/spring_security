@@ -12,6 +12,8 @@ public class TestController {
         System.out.println("666");
         System.out.println("password");
         System.out.println("i dont think so");
+        System.out.println("i just think so");
+
 
         return "hello security";
     }
